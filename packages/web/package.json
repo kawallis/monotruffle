@@ -2,13 +2,14 @@
   "name": "web",
   "version": "0.1.0",
   "dependencies": {
+    "auth0-js": "^9.3.3",
     "react": "^16.2.0",
     "react-app-rewire-babel-loader": "^0.1.1",
     "react-app-rewired": "^1.4.1",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
-    "truffle-solidity-loader": "0.0.8",
-    "truffle-contract": "^3.0.4"
+    "truffle-contract": "^3.0.4",
+    "truffle-solidity-loader": "0.0.8"
   },
   "scripts": {
     "start": "react-app-rewired start",

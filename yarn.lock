@@ -10654,21 +10654,9 @@ trim@0.0.1, trim@~0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
 
-truffle-blockchain-utils@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/truffle-blockchain-utils/-/truffle-blockchain-utils-0.0.1.tgz#07a58e55bb0555a64208c9119c0b04ffe1464aa4"
-  dependencies:
-    web3 "^0.18.0"
-
 truffle-blockchain-utils@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/truffle-blockchain-utils/-/truffle-blockchain-utils-0.0.4.tgz#e31a346db61775c80ccd6f632de5e72f97f20ea5"
-
-truffle-contract-schema@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/truffle-contract-schema/-/truffle-contract-schema-0.0.5.tgz#5e9d20bd0bf2a27fe94310748249d484eee49961"
-  dependencies:
-    crypto-js "^3.1.9-1"
 
 truffle-contract-schema@^2.0.0:
   version "2.0.0"
@@ -10677,15 +10665,6 @@ truffle-contract-schema@^2.0.0:
     ajv "^5.1.1"
     crypto-js "^3.1.9-1"
     debug "^3.1.0"
-
-truffle-contract@^1.1.8:
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/truffle-contract/-/truffle-contract-1.1.11.tgz#ce1fa787f797758aff572f45e8b1174527f6edaa"
-  dependencies:
-    ethjs-abi "0.1.8"
-    truffle-blockchain-utils "0.0.1"
-    truffle-contract-schema "0.0.5"
-    web3 "^0.16.0"
 
 truffle-contract@^3.0.4:
   version "3.0.4"
@@ -11171,16 +11150,6 @@ web3@^0.17.0-alpha:
     bignumber.js "git+https://github.com/debris/bignumber.js.git#94d7146671b9719e00a09c29b01a691bc85048c2"
     crypto-js "^3.1.4"
     utf8 "^2.1.1"
-    xmlhttprequest "*"
-
-web3@^0.18.0:
-  version "0.18.4"
-  resolved "https://registry.yarnpkg.com/web3/-/web3-0.18.4.tgz#81ec1784145491f2eaa8955b31c06049e07c5e7d"
-  dependencies:
-    bignumber.js "git+https://github.com/debris/bignumber.js.git#94d7146671b9719e00a09c29b01a691bc85048c2"
-    crypto-js "^3.1.4"
-    utf8 "^2.1.1"
-    xhr2 "*"
     xmlhttprequest "*"
 
 web3@^0.20.1, web3@^0.20.2:

@@ -28,7 +28,6 @@ export default class App extends React.Component {
     this.web3.eth.getAccounts((error, accounts) => {
       console.log(accounts)
       Gallery.deployed().then((instance) => {
-        console.log(instance)
       // //   // Get the value from the contract to prove it worked.
       //   // return ballotInstance.chairperson.call()
       })

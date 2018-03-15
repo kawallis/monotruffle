@@ -3,6 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 import Shared from "shared";
 import 'babel-preset-react-native-web3/globals';
 import Web3 from 'web3';
+const contract = require('truffle-contract');
+
 // require('crypto'); // rn app breaks if this line is not present.
 
 
@@ -20,17 +22,16 @@ export default class App extends React.Component {
   }
 
   componentDidMount(){
-    // const contract = require('truffle-contract')
-    // const Gallery = contract(Shared.contract)
-    // Gallery.setProvider(this.state.web3.currentProvider)
+    const Gallery = contract(Shared.contract)
+    Gallery.setProvider(this.web3.currentProvider)
 
     this.web3.eth.getAccounts((error, accounts) => {
       console.log(accounts)
-      // Gallery.deployed().then((instance) => {
-      //   console.log(instance)
+      Gallery.deployed().then((instance) => {
+        console.log(instance)
       // //   // Get the value from the contract to prove it worked.
       //   // return ballotInstance.chairperson.call()
-      // })
+      })
     })
   }
 
